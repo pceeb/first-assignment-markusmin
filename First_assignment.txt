@@ -3,59 +3,59 @@ Hello Students,
 This is what you have to do for homework.
 Remember the deadline to submit the HW is Wenesday at 8:00:00 am.
 
-I. Read chapter 2 from the book Introduction to Scientific Computing for Biologists Author.   
+I. Read chapter 2 from the book Introduction to Scientific Computing for Biologists Author.
 The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
+1. ls [A-Z]* # Correct!
 This command lists all files in your current directory that begin with any capital letter ("[A-Z]"
 defines the class as upper-case letters) in alphabetical order. 
-
-2. cp *.sh /tmp
+ 
+2. cp *.sh /tmp # Correct! 
 This command copies all files that are ".sh" files to the folder "tmp" (temporary files).
 
-3. man pwd
+3. man pwd # Correct!
 This command shows the manual for the command "pwd."
 
-4. cd ~
+4. cd ~ # Correct!
 This moves you back to your home directory.
 
-5. mkdir -p /test1/test2/test3 
+5. mkdir -p /test1/test2/test3 # Correct! 
 This makes a creates the directory "test3" nested within directory "test2" nested within directory 
 "test1." The "-p" option creates all three of these directories simultaneously. If the "-p" was
 not included, "test1" and "test2" would have to already exist for "test3" to be created.
 
-6. cp -r /tmp .
+6. cp -r /tmp .# Correct!
 This copies the directory "tmp" (temporary files) recursively, which means including all the 
 sub-directories and files.
 
-7. ls | less
+7. ls | less # Correct!
 This command prints the results of the command "ls," which lists the files in your current 
 directory. It does this by using a pipe (the symbol |), which concatenates the two commands "ls" 
 and "less" together. 
 
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt # Correct!
 This appends the first 24 lines of the file "test.txt" to the file "abc.txt".
 
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt # Correct!
 This command makes a text file called "aaa.txt" with the text "aaa".
 
-10. ps -u sallesina
+10. ps -u sallesina # Correct!
 This displays the processes belonging to the user "sallesina".
 
-11. top
+11. top # Correct!
 This displays a sorted list of system processes.
 
 12. ls | grep .sh | xargs mv /tmp
 This takes a list of all files that match the criteria of including the characters ".sh" and 
 uses "xargs" to move all of them to the "tmp" (temporary files) folder.
 
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10 # Correct!
 This sums the files space usage of  all the directories within your "home" directory in kilobytes,
 sorts them in reverse numeric order, and then prints the top ten results.
 
-14. sort -r names.txt
+14. sort -r names.txt # Correct!
 This sorts the all lines in "names.txt" in reverse order.
 
 
